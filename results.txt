@@ -1,0 +1,12 @@
+Karpathy's before batch normalization
+train: 2.03  dev: 2.103
+
+My before batch normalization
+train: 2.03 dev: 2.121
+
+My after batch normalization + with damping of the gradient descent step
+train: 2.02  dev: 2.100
+
+
+My after batch normalization + with damping of the gradient descent step + context window extension to 10. 
+train: 1.911  dev: 2.07 
